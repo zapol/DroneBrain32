@@ -1,4 +1,4 @@
-update=Mon 01 Dec 2014 02:12:25 PM CET
+update=pon, 1 gru 2014, 22:26:31
 version=1
 last_client=kicad
 [cvpcb]
@@ -27,17 +27,7 @@ BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [eeschema]
 version=1
-PageLayoutDescrFile=
-SubpartIdSeparator=0
-SubpartFirstId=65
-LibDir=/home/zapol/kicad_projects/KicadLibs
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
+LibDir=../KicadLibs
 [eeschema/libraries]
 LibName1=z_newlib
 LibName2=z_power
