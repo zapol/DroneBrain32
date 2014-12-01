@@ -1,4 +1,4 @@
 DroneBrain32
 ============
 
-Control board for autonomic drone, mostly compatible with OpenLRS32
+Control board for autonomous drone, mostly compatible with OpenLRS32
