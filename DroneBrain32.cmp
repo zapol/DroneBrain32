@@ -1,0 +1,318 @@
+Cmp-Mod V01 Created by Cvpcb (2014-07-31 BZR 5040)-product   date = Tue 02 Dec 2014 11:22:56 AM CET
+
+BeginCmp
+TimeStamp = /50CF8864;
+Reference = C1;
+ValeurCmp = 22p;
+IdModule  = Newlib:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50CF886F;
+Reference = C2;
+ValeurCmp = 22p;
+IdModule  = Newlib:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50CF80D8;
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = Newlib:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50CF80DE;
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = Newlib:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50CF80E4;
+Reference = C5;
+ValeurCmp = 100n;
+IdModule  = Newlib:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F70D11;
+Reference = C6;
+ValeurCmp = 100n;
+IdModule  = Newlib:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50CF80EA;
+Reference = C7;
+ValeurCmp = 100n;
+IdModule  = Newlib:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F47816;
+Reference = C8;
+ValeurCmp = 100n;
+IdModule  = Newlib:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F47BF7;
+Reference = C9;
+ValeurCmp = 100n;
+IdModule  = Newlib:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /547DB7A6;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = Newlib:D0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /547DB8D6;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = Newlib:D0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F5B43A;
+Reference = D3;
+ValeurCmp = SS24;
+IdModule  = Newlib:SMB;
+EndCmp
+
+BeginCmp
+TimeStamp = /547CD8C3;
+Reference = J1;
+ValeurCmp = HEADER1X2;
+IdModule  = PinHead:HEADER1x2V;
+EndCmp
+
+BeginCmp
+TimeStamp = /547DEADE;
+Reference = J2;
+ValeurCmp = AIN0;
+IdModule  = PinHead:HEADER1x2V;
+EndCmp
+
+BeginCmp
+TimeStamp = /50D26186;
+Reference = J3;
+ValeurCmp = JTAG;
+IdModule  = PinHead:HEADER2x10V;
+EndCmp
+
+BeginCmp
+TimeStamp = /547DFE4F;
+Reference = J4;
+ValeurCmp = AIN1;
+IdModule  = PinHead:HEADER1x2V;
+EndCmp
+
+BeginCmp
+TimeStamp = /547D6BB8;
+Reference = J5;
+ValeurCmp = GPS;
+IdModule  = PinHead:HEADER1x4V;
+EndCmp
+
+BeginCmp
+TimeStamp = /50D21F2F;
+Reference = J6;
+ValeurCmp = USB-MINI-A;
+IdModule  = Newlib:USB-A-MINI;
+EndCmp
+
+BeginCmp
+TimeStamp = /547D1EF9;
+Reference = J7;
+ValeurCmp = IMU;
+IdModule  = PinHead:HEADER1x8V;
+EndCmp
+
+BeginCmp
+TimeStamp = /547DEBF1;
+Reference = J8;
+ValeurCmp = HEADER1X10;
+IdModule  = PinHead:HEADER1x10V;
+EndCmp
+
+BeginCmp
+TimeStamp = /547DED4E;
+Reference = J9;
+ValeurCmp = HEADER1X10;
+IdModule  = PinHead:HEADER1x10V;
+EndCmp
+
+BeginCmp
+TimeStamp = /547DED8D;
+Reference = J10;
+ValeurCmp = HEADER1X10;
+IdModule  = PinHead:HEADER1x10V;
+EndCmp
+
+BeginCmp
+TimeStamp = /547E0BF6;
+Reference = J11;
+ValeurCmp = IMU_MH;
+IdModule  = Newlib:MountHole_D4P6;
+EndCmp
+
+BeginCmp
+TimeStamp = /50CF86A5;
+Reference = L1;
+ValeurCmp = ferrite bead;
+IdModule  = Newlib:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50D2701B;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = Newlib:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /547DB50F;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = Newlib:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /547DE919;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = Newlib:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /547DE9C2;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = Newlib:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50D25EC3;
+Reference = R5;
+ValeurCmp = 1k5;
+IdModule  = Newlib:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /547DB57A;
+Reference = R6;
+ValeurCmp = 1k;
+IdModule  = Newlib:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /547DD1FB;
+Reference = R7;
+ValeurCmp = 1k;
+IdModule  = Newlib:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /547DD2FA;
+Reference = R8;
+ValeurCmp = 1k;
+IdModule  = Newlib:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /547DD372;
+Reference = R9;
+ValeurCmp = 1k;
+IdModule  = Newlib:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /547DD378;
+Reference = R10;
+ValeurCmp = 1k;
+IdModule  = Newlib:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /547DD42C;
+Reference = R11;
+ValeurCmp = 1k;
+IdModule  = Newlib:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /547DD432;
+Reference = R12;
+ValeurCmp = 1k;
+IdModule  = Newlib:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /547DD438;
+Reference = R13;
+ValeurCmp = 1k;
+IdModule  = Newlib:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /547DD43E;
+Reference = R14;
+ValeurCmp = 1k;
+IdModule  = Newlib:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /547DD48A;
+Reference = R15;
+ValeurCmp = 1k;
+IdModule  = Newlib:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /547DD490;
+Reference = R16;
+ValeurCmp = 1k;
+IdModule  = Newlib:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /547CD12F;
+Reference = U1;
+ValeurCmp = RFM23BP;
+IdModule  = Newlib:RFM23BP;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A1E60F;
+Reference = U2;
+ValeurCmp = STM32F103CBT6;
+IdModule  = Newlib:LQFP48_L;
+EndCmp
+
+BeginCmp
+TimeStamp = /547D8C13;
+Reference = U3;
+ValeurCmp = MICROSD;
+IdModule  = Newlib:MicroSD_MOLEX_47309-3351;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F474DB;
+Reference = U4;
+ValeurCmp = LM1117;
+IdModule  = Newlib:SOT223;
+EndCmp
+
+BeginCmp
+TimeStamp = /50D50DE0;
+Reference = X1;
+ValeurCmp = XT324;
+IdModule  = Newlib:XT324;
+EndCmp
+
+EndListe
