@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-07-31 BZR 5040)-product   date = Tue 02 Dec 2014 11:22:56 AM CET
+Cmp-Mod V01 Created by Cvpcb (2014-07-31 BZR 5040)-product   date = Tue 02 Dec 2014 04:36:43 PM CET
 
 BeginCmp
 TimeStamp = /50CF8864;
@@ -11,13 +11,6 @@ BeginCmp
 TimeStamp = /50CF886F;
 Reference = C2;
 ValeurCmp = 22p;
-IdModule  = Newlib:C0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /50CF80D8;
-Reference = C3;
-ValeurCmp = 100n;
 IdModule  = Newlib:C0805;
 EndCmp
 
@@ -88,7 +81,7 @@ BeginCmp
 TimeStamp = /547CD8C3;
 Reference = J1;
 ValeurCmp = HEADER1X2;
-IdModule  = PinHead:HEADER1x2V;
+IdModule  = Newlib:CON_SMA-Edge;
 EndCmp
 
 BeginCmp
@@ -99,10 +92,10 @@ IdModule  = PinHead:HEADER1x2V;
 EndCmp
 
 BeginCmp
-TimeStamp = /50D26186;
+TimeStamp = /547DF0BD;
 Reference = J3;
 ValeurCmp = JTAG;
-IdModule  = PinHead:HEADER2x10V;
+IdModule  = PinHead:HEADER1x6V;
 EndCmp
 
 BeginCmp
