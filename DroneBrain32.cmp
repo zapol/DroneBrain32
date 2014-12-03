@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-07-31 BZR 5040)-product   date = Tue 02 Dec 2014 04:36:43 PM CET
+Cmp-Mod V01 Created by Cvpcb (2014-07-31 BZR 5040)-product   date = Wed 03 Dec 2014 10:17:04 AM CET
 
 BeginCmp
 TimeStamp = /50CF8864;
@@ -74,7 +74,7 @@ BeginCmp
 TimeStamp = /50F5B43A;
 Reference = D3;
 ValeurCmp = SS24;
-IdModule  = Newlib:SMB;
+IdModule  = Newlib:SMA;
 EndCmp
 
 BeginCmp
@@ -95,7 +95,7 @@ BeginCmp
 TimeStamp = /547DF0BD;
 Reference = J3;
 ValeurCmp = JTAG;
-IdModule  = PinHead:HEADER1x6V;
+IdModule  = PinHead:HEADER1x6EF;
 EndCmp
 
 BeginCmp
@@ -148,10 +148,10 @@ IdModule  = PinHead:HEADER1x10V;
 EndCmp
 
 BeginCmp
-TimeStamp = /547E0BF6;
+TimeStamp = /547ED41C;
 Reference = J11;
-ValeurCmp = IMU_MH;
-IdModule  = Newlib:MountHole_D4P6;
+ValeurCmp = GSM;
+IdModule  = PinHead:HEADER1x4V;
 EndCmp
 
 BeginCmp
