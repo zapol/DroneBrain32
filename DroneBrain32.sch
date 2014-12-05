@@ -369,13 +369,13 @@ Text Label 5000 2500 2    60   ~ 0
 SCL
 Text Label 5000 2600 2    60   ~ 0
 SDA
-Text Label 5000 2700 2    60   ~ 0
-MOSI
-Text Label 5000 2800 2    60   ~ 0
-MISO
-Text Label 5000 2900 2    60   ~ 0
-SCK
 Text Label 5000 3000 2    60   ~ 0
+MOSI
+Text Label 5000 2900 2    60   ~ 0
+MISO
+Text Label 5000 2800 2    60   ~ 0
+SCK
+Text Label 5000 2700 2    60   ~ 0
 NSEL_RFM
 Text Label 2450 2300 0    60   ~ 0
 PPM
@@ -1327,13 +1327,13 @@ Wire Wire Line
 Wire Wire Line
 	2750 2300 2450 2300
 Wire Wire Line
-	4550 3000 5000 3000
-Wire Wire Line
-	4550 2900 5000 2900
+	4550 2700 5000 2700
 Wire Wire Line
 	4550 2800 5000 2800
 Wire Wire Line
-	4550 2700 5000 2700
+	4550 2900 5000 2900
+Wire Wire Line
+	4550 3000 5000 3000
 Wire Wire Line
 	4550 2600 5000 2600
 Wire Wire Line
