@@ -1,4 +1,4 @@
-update=Thu 04 Dec 2014 12:11:41 PM CET
+update=czw, 25 lis 2021, 16:49:55
 version=1
 last_client=kicad
 [cvpcb]
@@ -25,11 +25,8 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
-[eeschema]
-version=1
-LibDir=../KicadLibs
-[eeschema/libraries]
-LibName1=z_newlib
-LibName2=z_power
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=

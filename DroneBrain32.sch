@@ -1,8 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:z_newlib
-LIBS:z_power
-LIBS:DroneBrain32-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -29,7 +26,7 @@ CH5
 Text Label 2450 2100 0    60   ~ 0
 CH6
 $Comp
-L C C4
+L z_newlib:C C4
 U 1 1 50CF80DE
 P 1650 4300
 F 0 "C4" V 1750 4200 50  0000 L BNN
@@ -40,7 +37,7 @@ F 3 "" H 1650 4300 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C5
+L z_newlib:C C5
 U 1 1 50CF80E4
 P 1900 4300
 F 0 "C5" V 2000 4200 50  0000 L BNN
@@ -51,7 +48,7 @@ F 3 "" H 1900 4300 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C7
+L z_newlib:C C7
 U 1 1 50CF80EA
 P 2650 4300
 F 0 "C7" V 2750 4200 50  0000 L BNN
@@ -62,7 +59,7 @@ F 3 "" H 2650 4300 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR01
+L z_power:GND #PWR01
 U 1 1 50CF8845
 P 2650 4600
 F 0 "#PWR01" H 2650 4560 30  0001 C CNN
@@ -73,7 +70,7 @@ F 3 "" H 2650 4600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L z_newlib:C C1
 U 1 1 50CF8864
 P 1550 3450
 F 0 "C1" V 1650 3450 50  0000 L BNN
@@ -84,7 +81,7 @@ F 3 "" H 1550 3450 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C2
+L z_newlib:C C2
 U 1 1 50CF886F
 P 2250 3450
 F 0 "C2" V 2350 3350 50  0000 L BNN
@@ -95,7 +92,7 @@ F 3 "" H 2250 3450 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR02
+L z_power:GND #PWR02
 U 1 1 50CF8B8F
 P 2250 3650
 F 0 "#PWR02" H 2250 3610 30  0001 C CNN
@@ -106,7 +103,7 @@ F 3 "" H 2250 3650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L z_power:GND #PWR03
 U 1 1 50CF8B95
 P 1550 3650
 F 0 "#PWR03" H 1550 3610 30  0001 C CNN
@@ -117,7 +114,7 @@ F 3 "" H 1550 3650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB-MINI-A J6
+L z_newlib:USB-MINI-A J6
 U 1 1 50D21F2F
 P 1000 2700
 F 0 "J6" H 1100 3000 60  0000 C CNN
@@ -128,7 +125,7 @@ F 3 "" H 1000 2700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L z_power:GND #PWR04
 U 1 1 50D220B6
 P 1250 3350
 F 0 "#PWR04" H 1250 3310 30  0001 C CNN
@@ -140,7 +137,7 @@ F 3 "" H 1250 3350 60  0001 C CNN
 $EndComp
 NoConn ~ 1200 2800
 $Comp
-L +5V #PWR05
+L z_power:+5V #PWR05
 U 1 1 50D25E06
 P 1550 2400
 F 0 "#PWR05" H 1550 2360 30  0001 C CNN
@@ -151,7 +148,7 @@ F 3 "" H 1550 2400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L z_newlib:R R5
 U 1 1 50D25EC3
 P 1900 2250
 F 0 "R5" H 1800 2300 50  0000 L BNN
@@ -168,7 +165,7 @@ USB_DM
 Text Label 2300 2700 0    60   ~ 0
 USB_DP
 $Comp
-L GND #PWR06
+L z_power:GND #PWR06
 U 1 1 50D26195
 P 6700 1450
 F 0 "#PWR06" H 6700 1410 30  0001 C CNN
@@ -181,7 +178,7 @@ $EndComp
 Text Label 2450 3500 0    60   ~ 0
 NRST
 $Comp
-L R R1
+L z_newlib:R R1
 U 1 1 50D2701B
 P 1000 3800
 F 0 "R1" H 900 3850 50  0000 L BNN
@@ -192,7 +189,7 @@ F 3 "" H 1000 3800 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3V3 #PWR07
+L z_power:+3V3 #PWR07
 U 1 1 50D4C09C
 P 2650 3650
 F 0 "#PWR07" H 2650 3610 30  0001 C CNN
@@ -219,7 +216,7 @@ TDO
 Text Label 5000 2400 2    60   ~ 0
 RSSI
 $Comp
-L +5V #PWR08
+L z_power:+5V #PWR08
 U 1 1 50D4E68D
 P 1050 5450
 F 0 "#PWR08" H 1050 5410 30  0001 C CNN
@@ -230,7 +227,7 @@ F 3 "" H 1050 5450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L XT324 X1
+L z_newlib:XT324 X1
 U 1 1 50D50DE0
 P 1900 3450
 F 0 "X1" H 1750 3650 60  0000 C CNN
@@ -241,7 +238,7 @@ F 3 "" H 1900 3450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM1117 U4
+L z_newlib:LM1117 U4
 U 1 1 50F474DB
 P 1600 5550
 F 0 "U4" H 1400 5750 60  0000 C CNN
@@ -252,7 +249,7 @@ F 3 "" H 1600 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L z_power:GND #PWR09
 U 1 1 50F47685
 P 1200 5650
 F 0 "#PWR09" H 1200 5610 30  0001 C CNN
@@ -263,7 +260,7 @@ F 3 "" H 1200 5650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L z_newlib:C C8
 U 1 1 50F47816
 P 1050 5650
 F 0 "C8" V 1150 5700 50  0000 L BNN
@@ -274,7 +271,7 @@ F 3 "" H 1050 5650 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C9
+L z_newlib:C C9
 U 1 1 50F47BF7
 P 2150 5650
 F 0 "C9" V 2250 5550 50  0000 L BNN
@@ -285,7 +282,7 @@ F 3 "" H 2150 5650 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR010
+L z_power:GND #PWR010
 U 1 1 50F4824B
 P 2150 5800
 F 0 "#PWR010" H 2150 5760 30  0001 C CNN
@@ -296,7 +293,7 @@ F 3 "" H 2150 5800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L z_power:GND #PWR011
 U 1 1 50F48955
 P 1050 5800
 F 0 "#PWR011" H 1050 5760 30  0001 C CNN
@@ -307,7 +304,7 @@ F 3 "" H 1050 5800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR012
+L z_power:+3V3 #PWR012
 U 1 1 50F5B10C
 P 2150 5450
 F 0 "#PWR012" H 2150 5410 30  0001 C CNN
@@ -318,7 +315,7 @@ F 3 "" H 2150 5450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODESCH D3
+L z_newlib:DIODESCH D3
 U 1 1 50F5B43A
 P 1350 2500
 F 0 "D3" H 1400 2425 50  0000 C CNN
@@ -329,7 +326,7 @@ F 3 "" H 1350 2500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L z_newlib:C C6
 U 1 1 50F70D11
 P 2150 4300
 F 0 "C6" V 2250 4200 50  0000 L BNN
@@ -340,7 +337,7 @@ F 3 "" H 2150 4300 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR013
+L z_power:GND #PWR013
 U 1 1 53A092B3
 P 4650 4200
 F 0 "#PWR013" H 4650 4160 30  0001 C CNN
@@ -351,7 +348,7 @@ F 3 "" H 4650 4200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR014
+L z_power:+3V3 #PWR014
 U 1 1 53A09674
 P 1000 3550
 F 0 "#PWR014" H 1000 3510 30  0001 C CNN
@@ -382,7 +379,7 @@ PPM
 Text Label 2450 2400 0    60   ~ 0
 Tx
 $Comp
-L STM32F103CBT6 U2
+L z_newlib:STM32F103CBT6 U2
 U 1 1 53A1E60F
 P 3650 2750
 F 0 "U2" H 3000 4200 60  0000 C CNN
@@ -401,7 +398,7 @@ CH7
 Text Label 2400 2250 2    60   ~ 0
 USB_PU
 $Comp
-L R R2
+L z_newlib:R R2
 U 1 1 547DB50F
 P 5150 1600
 F 0 "R2" H 4950 1525 50  0000 L BNN
@@ -412,7 +409,7 @@ F 3 "" H 5150 1600 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R6
+L z_newlib:R R6
 U 1 1 547DB57A
 P 5150 2300
 F 0 "R6" H 4950 2225 50  0000 L BNN
@@ -423,7 +420,7 @@ F 3 "" H 5150 2300 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D1
+L z_newlib:LED D1
 U 1 1 547DB7A6
 P 5600 1600
 F 0 "D1" H 5585 1725 50  0000 C CNN
@@ -434,7 +431,7 @@ F 3 "" H 5600 1600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D2
+L z_newlib:LED D2
 U 1 1 547DB8D6
 P 5600 2300
 F 0 "D2" H 5585 2425 50  0000 C CNN
@@ -445,7 +442,7 @@ F 3 "" H 5600 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HEADER1X10 J8
+L z_newlib:HEADER1X10 J8
 U 1 1 547DEBF1
 P 6450 2850
 F 0 "J8" H 6450 3400 60  0000 C CNN
@@ -456,7 +453,7 @@ F 3 "" H 6450 2850 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L HEADER1X10 J9
+L z_newlib:HEADER1X10 J9
 U 1 1 547DED4E
 P 6800 2850
 F 0 "J9" H 6800 3400 60  0000 C CNN
@@ -467,7 +464,7 @@ F 3 "" H 6800 2850 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L HEADER1X10 J10
+L z_newlib:HEADER1X10 J10
 U 1 1 547DED8D
 P 7150 2850
 F 0 "J10" H 7150 3400 60  0000 C CNN
@@ -498,7 +495,7 @@ RSSI
 Text Label 7950 3300 2    60   ~ 0
 PPM
 $Comp
-L +5V #PWR015
+L z_power:+5V #PWR015
 U 1 1 547E08D8
 P 7000 2350
 F 0 "#PWR015" H 7000 2310 30  0001 C CNN
@@ -509,7 +506,7 @@ F 3 "" H 7000 2350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L z_power:GND #PWR016
 U 1 1 547E0965
 P 6650 3350
 F 0 "#PWR016" H 6650 3310 30  0001 C CNN
@@ -522,7 +519,7 @@ $EndComp
 Text Label 5000 3200 2    60   ~ 0
 NIRQ_RFM
 $Comp
-L RFM23BP U1
+L z_newlib:RFM23BP U1
 U 1 1 547CD12F
 P 9300 1150
 F 0 "U1" H 8800 1600 60  0000 C CNN
@@ -533,7 +530,7 @@ F 3 "" H 8950 1350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HEADER1X2 J1
+L z_newlib:HEADER1X2 J1
 U 1 1 547CD8C3
 P 7850 850
 F 0 "J1" H 7850 700 60  0000 C CNN
@@ -544,7 +541,7 @@ F 3 "" H 7850 850 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR017
+L z_power:+5V #PWR017
 U 1 1 547CE0B5
 P 8500 1200
 F 0 "#PWR017" H 8500 1160 30  0001 C CNN
@@ -556,7 +553,7 @@ F 3 "" H 8500 1200 60  0001 C CNN
 $EndComp
 NoConn ~ 8600 1500
 $Comp
-L GND #PWR018
+L z_power:GND #PWR018
 U 1 1 547CEE9E
 P 10100 1600
 F 0 "#PWR018" H 10100 1560 30  0001 C CNN
@@ -577,7 +574,7 @@ MOSI
 Text Label 10600 1400 2    60   ~ 0
 MISO
 $Comp
-L HEADER1X8 J7
+L z_newlib:HEADER1X8 J7
 U 1 1 547D1EF9
 P 8900 4300
 F 0 "J7" H 8900 4750 60  0000 C CNN
@@ -588,7 +585,7 @@ F 3 "" H 8900 4300 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR019
+L z_power:+3V3 #PWR019
 U 1 1 547D22DF
 P 9150 3850
 F 0 "#PWR019" H 9150 3810 30  0001 C CNN
@@ -599,7 +596,7 @@ F 3 "" H 9150 3850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L z_power:GND #PWR020
 U 1 1 547D3688
 P 9150 4150
 F 0 "#PWR020" H 9150 4110 30  0001 C CNN
@@ -630,7 +627,7 @@ IMU_SCL
 Text Label 5000 2100 2    60   ~ 0
 IMU_SDA
 $Comp
-L HEADER1X4 J5
+L z_newlib:HEADER1X4 J5
 U 1 1 547D6BB8
 P 9350 2550
 F 0 "J5" H 9350 2800 60  0000 C CNN
@@ -641,7 +638,7 @@ F 3 "" H 9350 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3V3 #PWR021
+L z_power:+3V3 #PWR021
 U 1 1 547D6C65
 P 9600 2300
 F 0 "#PWR021" H 9600 2260 30  0001 C CNN
@@ -652,7 +649,7 @@ F 3 "" H 9600 2300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR022
+L z_power:GND #PWR022
 U 1 1 547D6CAC
 P 9600 2800
 F 0 "#PWR022" H 9600 2760 30  0001 C CNN
@@ -667,7 +664,7 @@ Tx
 Text Label 9750 2600 2    60   ~ 0
 Rx
 $Comp
-L MICROSD U3
+L z_newlib:MICROSD U3
 U 1 1 547D8C13
 P 7350 4300
 F 0 "U3" H 7150 5000 50  0000 C CNN
@@ -678,7 +675,7 @@ F 3 "" H 7350 4300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR023
+L z_power:GND #PWR023
 U 1 1 547D920B
 P 7650 4200
 F 0 "#PWR023" H 7650 4160 30  0001 C CNN
@@ -689,7 +686,7 @@ F 3 "" H 7650 4200 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3V3 #PWR024
+L z_power:+3V3 #PWR024
 U 1 1 547D95B8
 P 7650 4000
 F 0 "#PWR024" H 7650 3960 30  0001 C CNN
@@ -700,7 +697,7 @@ F 3 "" H 7650 4000 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR025
+L z_power:GND #PWR025
 U 1 1 547D9994
 P 7650 5000
 F 0 "#PWR025" H 7650 4960 30  0001 C CNN
@@ -721,7 +718,7 @@ SCK
 Text Label 8050 4300 2    60   ~ 0
 MISO
 $Comp
-L GND #PWR026
+L z_power:GND #PWR026
 U 1 1 547DD50E
 P 5800 2400
 F 0 "#PWR026" H 5800 2360 30  0001 C CNN
@@ -736,7 +733,7 @@ LED0
 Text Label 5000 2300 2    60   ~ 0
 LED1
 $Comp
-L R R3
+L z_newlib:R R3
 U 1 1 547DE919
 P 1850 1800
 F 0 "R3" H 1950 1825 50  0000 L BNN
@@ -747,7 +744,7 @@ F 3 "" H 1850 1800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L z_newlib:R R4
 U 1 1 547DE9C2
 P 1850 1900
 F 0 "R4" H 1950 1925 50  0000 L BNN
@@ -758,7 +755,7 @@ F 3 "" H 1850 1900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HEADER1X2 J2
+L z_newlib:HEADER1X2 J2
 U 1 1 547DEADE
 P 1750 1050
 F 0 "J2" H 1750 1200 60  0000 C CNN
@@ -769,7 +766,7 @@ F 3 "" H 1750 1050 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L HEADER1X2 J4
+L z_newlib:HEADER1X2 J4
 U 1 1 547DFE4F
 P 1750 1450
 F 0 "J4" H 1750 1600 60  0000 C CNN
@@ -780,7 +777,7 @@ F 3 "" H 1750 1450 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR027
+L z_power:GND #PWR027
 U 1 1 547E0369
 P 2000 1600
 F 0 "#PWR027" H 2000 1560 30  0001 C CNN
@@ -791,7 +788,7 @@ F 3 "" H 2000 1600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L z_newlib:R R7
 U 1 1 547DD1FB
 P 7500 2400
 F 0 "R7" H 7300 2325 50  0000 L BNN
@@ -802,7 +799,7 @@ F 3 "" H 7500 2400 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R8
+L z_newlib:R R8
 U 1 1 547DD2FA
 P 7500 2500
 F 0 "R8" H 7300 2425 50  0000 L BNN
@@ -813,7 +810,7 @@ F 3 "" H 7500 2500 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R9
+L z_newlib:R R9
 U 1 1 547DD372
 P 7500 2600
 F 0 "R9" H 7300 2525 50  0000 L BNN
@@ -824,7 +821,7 @@ F 3 "" H 7500 2600 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R10
+L z_newlib:R R10
 U 1 1 547DD378
 P 7500 2700
 F 0 "R10" H 7250 2625 50  0000 L BNN
@@ -835,7 +832,7 @@ F 3 "" H 7500 2700 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R11
+L z_newlib:R R11
 U 1 1 547DD42C
 P 7500 2800
 F 0 "R11" H 7250 2725 50  0000 L BNN
@@ -846,7 +843,7 @@ F 3 "" H 7500 2800 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R12
+L z_newlib:R R12
 U 1 1 547DD432
 P 7500 2900
 F 0 "R12" H 7250 2825 50  0000 L BNN
@@ -857,7 +854,7 @@ F 3 "" H 7500 2900 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R13
+L z_newlib:R R13
 U 1 1 547DD438
 P 7500 3000
 F 0 "R13" H 7250 2925 50  0000 L BNN
@@ -868,7 +865,7 @@ F 3 "" H 7500 3000 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R14
+L z_newlib:R R14
 U 1 1 547DD43E
 P 7500 3100
 F 0 "R14" H 7250 3025 50  0000 L BNN
@@ -879,7 +876,7 @@ F 3 "" H 7500 3100 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R15
+L z_newlib:R R15
 U 1 1 547DD48A
 P 7500 3200
 F 0 "R15" H 7250 3125 50  0000 L BNN
@@ -890,7 +887,7 @@ F 3 "" H 7500 3200 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R16
+L z_newlib:R R16
 U 1 1 547DD490
 P 7500 3300
 F 0 "R16" H 7250 3225 50  0000 L BNN
@@ -1343,7 +1340,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 2000 5000 2000
 $Comp
-L L L1
+L z_newlib:L L1
 U 1 1 50CF86A5
 P 2350 4100
 F 0 "L1" H 2150 4100 50  0000 L BNN
@@ -1358,7 +1355,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 4100 2200 4100
 $Comp
-L HEADER1X6 J3
+L z_newlib:HEADER1X6 J3
 U 1 1 547DF0BD
 P 6950 1300
 F 0 "J3" H 6950 1650 60  0000 C CNN
@@ -1369,7 +1366,7 @@ F 3 "" H 6950 1300 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L HEADER1X4 J11
+L z_newlib:HEADER1X4 J11
 U 1 1 547ED41C
 P 10000 2550
 F 0 "J11" H 10000 2800 60  0000 C CNN
@@ -1380,7 +1377,7 @@ F 3 "" H 10000 2550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3V3 #PWR028
+L z_power:+3V3 #PWR028
 U 1 1 547ED422
 P 10250 2300
 F 0 "#PWR028" H 10250 2260 30  0001 C CNN
@@ -1391,7 +1388,7 @@ F 3 "" H 10250 2300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR029
+L z_power:GND #PWR029
 U 1 1 547ED428
 P 10250 2800
 F 0 "#PWR029" H 10250 2760 30  0001 C CNN
@@ -1420,7 +1417,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 1450 6800 1450
 $Comp
-L +3V3 #PWR030
+L z_power:+3V3 #PWR030
 U 1 1 547EEF7A
 P 6650 1550
 F 0 "#PWR030" H 6650 1510 30  0001 C CNN
@@ -1441,7 +1438,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 3850 2450 3500
 $Comp
-L GND #PWR031
+L z_power:GND #PWR031
 U 1 1 54802636
 P 8100 1000
 F 0 "#PWR031" H 8100 960 30  0001 C CNN
